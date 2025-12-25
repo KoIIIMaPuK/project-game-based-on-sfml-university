@@ -1,4 +1,4 @@
-#include "__config.hpp"
+#include "__config.hpp"     // Подлючение конфиг файла
 
 int main()
 {
