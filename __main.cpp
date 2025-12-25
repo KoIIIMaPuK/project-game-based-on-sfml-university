@@ -86,6 +86,3 @@ int main()
 
 	return config_window::application_exit_code::WINDOW_COMPLETE;
 }
-// тест
-
-// =) тест

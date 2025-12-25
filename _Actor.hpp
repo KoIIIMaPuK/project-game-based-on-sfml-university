@@ -1,6 +1,6 @@
 #pragma once
 
-#include "__config.hpp" // подключение конфиг файла
+#include "__config.hpp" // ѕодключение конфиг файла
 
 /** ****************************************************
     *
@@ -21,7 +21,7 @@ class Actor
 {
 /** ****************************************************
     *
-    *   @brief:         ќбъ€вл€ем основные переменные дл€ работы с клаассом
+    *   @brief:         ќбъ€вление основных переменных дл€ работы с клаассом
     *
     ****************************
     *
@@ -67,7 +67,7 @@ protected:
     *                       инициализирует поле: sf::Texture texture
     *   @setter [ 2 ]:      setter__texture_path()       
     *                       инициализирует поле: std::string texture_path
-    *   @setter [ 3 ]:      etter__position()       
+    *   @setter [ 3 ]:      setter__position()       
     *                       инициализирует поле: sf::Vector2f position
     *   @setter [ 4 ]:      setter__rotation()       
     *                       инициализирует поле: float rotation
@@ -77,6 +77,35 @@ public:
     void setter__texture_path(std::string variable__texture_path);
     void setter__position(sf::Vector2f variable__position);
     void setter__rotation(float variable__rotation);
-};
 
-// =) тест
+
+
+
+
+
+
+
+/** ****************************************************
+    *
+    *   @brief:         ќбъ€вление геттеров
+    *
+    ****************************
+    *
+    *   @description:   геттеры дл€ работы
+    *                   с пол€ми класса.
+    *
+    *   @getter [ 1 ]:      getter__texture()
+    *                       возвращает значение пол€: sf::Texture texture
+    *   @getter [ 2 ]:      getter__texture_path()
+    *                       возвращает значение пол€: std::string texture_path
+    *   @getter [ 3 ]:      getter__position()
+    *                       возвращает значение пол€: sf::Vector2f position
+    *   @getter [ 4 ]:      getter__rotation()
+    *                       возвращает значение пол€: float rotation
+    */
+public:
+    sf::Texture getter__texture();
+    std::string getter__texture_path();
+    sf::Vector2f getter__position();
+    float getter__rotation();
+};

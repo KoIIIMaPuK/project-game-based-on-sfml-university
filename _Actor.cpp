@@ -86,4 +86,88 @@ void Actor::setter__rotation(float variable__rotation)
 	this->rotation = variable__rotation;
 }
 
-// =) тест
+
+
+
+
+
+
+
+
+/** ****************************************************
+    *
+    *   @setter:        texture
+    *
+    ****************************
+    *
+    *   @brief:         инициализирует поле: sf::Texture texture
+    *
+    */
+sf::Texture Actor::getter__texture()
+{
+    return this->texture;
+}
+
+
+
+
+
+
+
+
+
+/** ****************************************************
+    *
+    *   @setter:        texture_path
+    *
+    ****************************
+    *
+    *   @brief:         инициализирует поле: std::string texture_path
+    *
+    */
+std::string Actor::getter__texture_path()
+{
+    return this->texture_path;
+}
+
+
+
+
+
+
+
+
+/** ****************************************************
+    *
+    *   @setter:        position
+    *
+    ****************************
+    *
+    *   @brief:         инициализирует поле: sf::Vector2f position
+    *
+    */
+sf::Vector2f Actor::getter__position()
+{
+    return this->position;
+}
+
+
+
+
+
+
+
+
+/** ****************************************************
+    *
+    *   @setter:        rotation
+    *
+    ****************************
+    *
+    *   @brief:         инициализирует поле: float rotation
+    *
+    */
+float Actor::getter__rotation()
+{
+    return this->rotation;
+}
