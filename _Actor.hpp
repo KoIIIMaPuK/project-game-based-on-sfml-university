@@ -78,3 +78,5 @@ public:
     void setter__position(sf::Vector2f variable__position);
     void setter__rotation(float variable__rotation);
 };
+
+// =) тест

@@ -85,3 +85,5 @@ void Actor::setter__rotation(float variable__rotation)
 {
 	this->rotation = variable__rotation;
 }
+
+// =) тест
